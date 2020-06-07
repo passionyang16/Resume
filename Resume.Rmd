@@ -1,8 +1,14 @@
-Resume
-================
-양정열
+---
+title: "Resume"
+author: "양정열"
+output: github_document
+---
 
-<passionyang16@gmail.com>
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+passionyang16@gmail.com
 
 010-2811-6370
 
@@ -10,78 +16,80 @@ Resume
 
 사용언어: Python, R
 
+
 ## Projects
 
 데이터 분석과 관련된 프로젝트 리스트입니다.
 
 ### 데이콘 대회
-
 [Github](https://github.com/sehyeona/ybigta-project)
 
 사용 언어: Python
 
 지도 학습을 활용한 천체 유형 분류 분석
 
-  - EDA를 통한 데이터 전처리, scikit learn 활용
+- EDA를 통한 데이터 전처리, scikit learn 활용
 
-  - 분류 분석에 유용한 앙상블 기법 중 XgBoost, LightGBM 사용
+- 분류 분석에 유용한 앙상블 기법 중 XgBoost, LightGBM 사용
 
-  - 데이터 마이닝 관련 필요한 과정 포함
+- 데이터 마이닝 관련 필요한 과정 포함
 
 ### 부동산 가격 예측 프로그램
-
 [Github](https://github.com/whoareyouwhoami/ProjectCasa)
 
 사용 언어: Python
 
 비지도 학습과 시계열 분석을 활용한 부동산 가격 예측
 
-  - 네이버 부동한 크롤링을 통해 서울 내 부동산 데이터 수집
+- 네이버 부동한 크롤링을 통해 서울 내 부동산 데이터 수집
 
-  - 비슷한 특징을 가진 아프트끼리 K-Prototype을 통한 군집화
+- 비슷한 특징을 가진 아프트끼리 K-Prototype을 통한 군집화
 
-  - ARIMA 시계열 분석을 통한 아파트 가격 예측 (결측치는 동일 군집에서 비슷한 아파트의 가격으로 대체)
+- ARIMA 시계열 분석을 통한 아파트 가격 예측 (결측치는 동일 군집에서 비슷한 아파트의 가격으로 대체)
 
 ### 뉴스 데이터를 활용한 시스템 트레이딩
-
 [Github](https://github.com/sopogen/Project_ThematicInvest)
 
 사용 언어: Python
 
 뉴스 데이터를 자연어 처리하여 관련 테마주를 찾고, 그 중 저평가된 주식을 자동으로 트레이딩하는 알고리즘
 
-  - 네이버 증권과 뉴스를 크롤링해 데이터 수집 (진행중)
+- 네이버 증권과 뉴스를 크롤링해 데이터 수집 (진행중)
 
 ## Blog
-
 [Github](https://github.com/passionyang16/r_blog)
 
 사용 언어: R
 
 머신 러닝에 필요한 다양한 기법들을 쉽게 사용하기 위한 R Codebook
 
+
 ## Courses
 
 응용통계학과를 전공으로 하면서 수강했던 과목들 리스트입니다.
 
-  - 통계학입문
+- 통계학입문
 
-  - 통계방법론
+- 통계방법론
 
-  - 미분적분학
+- 미분적분학
 
-  - 선형대수
+- 선형대수
 
-  - R과 파이썬 프로그래밍
+- R과 파이썬 프로그래밍
 
-  - 수리통계학
+- 수리통계학
 
-  - 회귀분석
+- 회귀분석
 
-  - 확률 과정
+- 확률 과정
 
-  - 데이터 마이닝
+- 데이터 마이닝
 
-  - 딥러닝
+- 딥러닝
 
-  - 데이터 사이언스 입문
+- 데이터 사이언스 입문
+
+
+
+
