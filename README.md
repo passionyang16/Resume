@@ -54,7 +54,7 @@ Resume
 
 ## Blog
 
-[Github](https://github.com/passionyang16/r_blog)
+[Blog](https://passionyang16.netlify.app)
 
 사용 언어: R
 
