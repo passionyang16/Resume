@@ -14,20 +14,6 @@ Resume
 
 데이터 분석과 관련된 프로젝트 리스트입니다.
 
-### 데이콘 대회
-
-[Github](https://github.com/sehyeona/ybigta-project)
-
-사용 언어: Python
-
-지도 학습을 활용한 천체 유형 분류 분석
-
-  - EDA를 통한 데이터 전처리, scikit learn 활용
-
-  - 분류 분석에 유용한 앙상블 기법 중 XgBoost, LightGBM 사용
-
-  - 데이터 마이닝 관련 필요한 과정 포함
-
 ### 부동산 가격 예측 프로그램
 
 [Github](https://github.com/whoareyouwhoami/ProjectCasa)
@@ -50,7 +36,29 @@ Resume
 
 뉴스 데이터를 자연어 처리하여 관련 테마주를 찾고, 그 중 저평가된 주식을 자동으로 트레이딩하는 알고리즘
 
-  - 네이버 증권과 뉴스를 크롤링해 데이터 수집 (진행중)
+  - 네이버 증권과 뉴스를 크롤링해 데이터 수집
+  
+  - KoBERT를 활용한 토큰화, Word2Vec을 활용한 벡터화
+  
+  - Cosine 유사도를 통해 벡터화된 뉴스 데이터 간 유사도 측정
+  
+  
+
+### 데이콘 천체 분류 대회
+
+[Github](https://github.com/sehyeona/ybigta-project)
+
+사용 언어: Python
+
+지도 학습을 활용한 천체 유형 분류 분석
+
+  - EDA를 통한 데이터 전처리, scikit learn 활용
+
+  - 분류 분석에 유용한 앙상블 기법 중 XgBoost, LightGBM 사용
+
+  - 데이터 마이닝 관련 필요한 과정 포함
+
+
 
 ## Blog
 
