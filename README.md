@@ -6,9 +6,9 @@ Resume
 
 010-2811-6370
 
-데이터 사이언스 관련 이력서입니다.
+개발 관련 이력서입니다.
 
-사용언어: Python, R
+사용언어: Python, R, JavaScript, Flutter
 
 ## Projects
 
@@ -93,3 +93,7 @@ Resume
   - 딥러닝
 
   - 데이터 사이언스 입문
+  
+  - 금융공학
+  
+  - 
