@@ -108,29 +108,6 @@ Version 2)
 
 지도 학습을 활용한 천체 유형 분류 분석
 
-  - EDA를 통한 데이터 전처리, scikit learn 활용
-
-  - 분류 분석에 유용한 앙상블 기법 중 XgBoost, LightGBM 사용
-
-  - 데이터 마이닝 관련 필요한 과정 포함
-
-## 기타
-
-### Algorithm Practice
-
-[Github](https://github.com/passionyang16/algorithm)
-
-사용 언어: Python
-
-기초적인 컴퓨터 공학 자료구조와 알고리즘를 익히기 위한 문제 풀이
-
-  - 백준 / 프로그래머스
-
-### R Machine Learning Codebook
-
-[Github](https://github.com/passionyang16/r_codebook)
-
-사용 언어: R
 
 머신 러닝에 필요한 다양한 기법들을 쉽게 사용하기 위한 R Codebook
 
