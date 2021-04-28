@@ -23,7 +23,9 @@ Resume
 
 KoBERT를 활용한 문서 추출 요약 웹 구현
 
-- Pytorch로 
+- Pytorch로 직접 Transformer 모델 구현
+- Google Colab TPU 사용하여 학습
+- Flask와 Node.js를 활용하여 웹 
 
 
 ## 주식 자동 트레이딩 프로그램
