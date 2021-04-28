@@ -10,12 +10,14 @@ Resume
 
 언어: Python, R
 
-## Projects
+---
+
+# Projects
 
 데이터 분석 관련 프로젝트 리스트입니다.
 
 
-### 주식 자동 트레이딩 프로그램
+## 주식 자동 트레이딩 프로그램
 
 [Github Link](https://github.com/passionyang16/stock_trading)
 
@@ -47,7 +49,7 @@ Version 2)
 
 대신증권 API를 활용해 자동으로 트레이딩 되도록 설정
 
-### 데이터사이언스입문 수업 부동산 가격 예측 프로젝트
+## 데이터사이언스입문 수업 부동산 가격 예측 프로젝트
 
 [Github Link](https://github.com/passionyang16/ProjectCasa)
 
@@ -61,7 +63,7 @@ Version 2)
 
   - ARIMA 시계열 분석을 통한 아파트 가격 예측 (결측치는 동일 군집에서 비슷한 아파트의 가격으로 대체)
 
-### YBIGTA 데이콘 천체유형 분류 대회 머신러닝 프로젝트
+## YBIGTA 데이콘 천체유형 분류 대회 머신러닝 프로젝트
 
 [Github Link](https://github.com/passionyang16/ProjectCelestial)
 
@@ -75,9 +77,12 @@ Version 2)
 
   - 데이터 마이닝 관련 필요한 과정 포함
 
-## 기타
 
-### Algorithm Practice
+---
+
+# 기타
+
+## Algorithm Practice
 
 [Github](https://github.com/passionyang16/algorithm)
 
@@ -87,7 +92,7 @@ Version 2)
 
   - 백준 / 프로그래머스
 
-### R Machine Learning Codebook
+## R Machine Learning Codebook
 
 [Github](https://github.com/passionyang16/r_codebook)
 
@@ -95,8 +100,9 @@ Version 2)
 
 머신 러닝에 필요한 다양한 기법들을 쉽게 사용하기 위한 R Codebook
 
+---
 
-## Courses
+# Courses
 
 응용통계학과를 전공으로 하면서 수강했던 과목들 리스트입니다.
 
@@ -126,9 +132,11 @@ Version 2)
 
   - 시계열 분석
 
-## Coming Soon
+---
 
-### 맞춤형 정보성 뉴스 알림 앱, 뉴스보이
+# Coming Soon
+
+## 맞춤형 정보성 뉴스 알림 앱, 뉴스보이
 
 모델링: Python
 
