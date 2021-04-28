@@ -12,30 +12,83 @@ passionyang16@gmail.com
 
 010-2811-6370
 
-데이터 사이언스 관련 이력서입니다.
+프로그래밍 관련 이력서입니다.
 
-사용언어: Python, R
+언어: Python, R, JavaScript, TypeScript, Dart
+
+프레임워크: GraphQL, Docker, MongoDB, NodeJS, Flutter
 
 
 ## Projects
 
-데이터 분석과 관련된 프로젝트 리스트입니다.
+데이터 분석 및 개발 관련 프로젝트 리스트입니다.
 
-### 데이콘 대회
-[Github](https://github.com/sehyeona/ybigta-project)
+### 맞춤형 정보성 뉴스 알림 앱, 뉴스보이
+
+[Github Link](https://github.com/passionyang16/newsboy)
+
+모델링: Python
+
+서버: Spring
+
+앱: Flutter
+
+문제 인식: 키워드 검색 시 휴대폰에 도배되는 중복되고 자극적인 뉴스, 가뜩이나 바쁜 현대인에게 너무나 긴 뉴스의 내용, 찾기 어려운 본인에게 정말 필요한 뉴스 
+
+해결 방안: 중복이 제거되고 3줄로 요약된 뉴스 제공, 사용자가 구독한 키워드에 해당하는 뉴스를 푸시 알림으로 제공
+
+카카오 오픈소스인 PORORO를 활용하여 딥러닝 자연어 처리 기술을 다수 적용
+
+세부 기능:
+
+1) 자연어로 이루어진 뉴스 기사를 Sent2Vec 벡터화 후, 코사인 유사도를 기준 DBSCAN 클러스터링 기법으로 비슷한 뉴스들 그룹화
+
+2) 해당 그룹에 있는 뉴스 중 가장 중립적이고 정보성이 많은 뉴스만 대표뉴스로 선정, 나머지 뉴스들은 제거
+
+3) 비슷한 뉴스가 가장 많이 모인 그룹 내림차순 정렬, 순서대로 당일 이슈가 많은 것으로 판단, 앱 메인 화면 상단 10개의 TOP 뉴스를 슬라이드 형태로 제공
+
+4) 앱 메인 화면 하단 사용자 검색 및 뉴스 클릭 로그를 기반으로 한 뉴스를 리스트 형태로 추천
+
+5) 화면 내 특정 뉴스 클릭 시 전체 화면으로 메인 이미지, 3줄 요약된 뉴스 내용, 구독할 수 있는 고유명사 기반 키워드 등 제공
+
+6) 구독 화면 상단 사용자가 구독한 키워드들이 각각 버튼 형식으로 되어, 해당 버튼 클릭시 관련 기사가 리스트 형태로 제공.
+
+7) 구독한 키워드 중 새로운 뉴스가 업데이트 되면 사용자에게 푸시 알림으로 해당 내용을 전달 (Firebase 활용)
+
+8) Algolia를 활용한 검색 기능 탑재
+
+### 주식 자동 트레이딩 프로그램
+
+[Github Link](https://github.com/passionyang16/stock_trading)
 
 사용 언어: Python
 
-지도 학습을 활용한 천체 유형 분류 분석
+Version 1)
 
-- EDA를 통한 데이터 전처리, scikit learn 활용
+문제 인식: 예로부터 코스피/코스피 시장에서 가장 핫한 테마주는 뉴스 재료가 조금씩 나올 때 마다 서서히 꾸준한 상승을 보이다가 뉴스가 대량으로 터질 때 약간의 마지막 상승 후 급격한 하락을 보이는 패턴을 발견
 
-- 분류 분석에 유용한 앙상블 기법 중 XgBoost, LightGBM 사용
+해결 방안: 조금씩 나오는 뉴스를 보고 미리 테마주를 사서 대량으로 터질 때 팔자
 
-- 데이터 마이닝 관련 필요한 과정 포함
+자연어 처리를 활용한 세부 기능:
+
+1) 지난 1년간 핫했던 테마들을 리스트업 한 후, 각 테마별로 나왔던 뉴스들을 벡터화시켜 학습 진행
+
+2) 오늘 뉴스 기사별 벡터와 테마별 벡터를 비교하여 코사인 유사도가 0.93 이상인 테마만 선정
+
+3) 해당 테마에 관련된 주식 종목 중 과거 같은 테마 발생 시 반응을 보였던 종목만 골라서 추천 
+
+4) 리스크를 줄이기 위해 +5% 상한선, -5% 하한선의 밴드를 설정하고, 해당 밴드를 벗어나면 매도
+
+Version 2)
+
+문제 인식: 내가 매일 거래할 때 평균적으로 이길 확률이 50% 이상이라면 장기적으로 이익이며, 확률 게임을 한다면 거래량과 변동성이 가장 큰 상한가 다음날 종목을 매매
+
+해결 방안: 수년치 상한가 다음날 데이터를 통해 언제 매수, 매도를 해야 평균적으로 가장 높은 확률로 이기는지 데이터 분석 진행
+
+대신증권 API를 활용해 자동으로 트레이딩 되도록 설정
 
 ### 부동산 가격 예측 프로그램
-[Github](https://github.com/whoareyouwhoami/ProjectCasa)
+[Github Link](https://github.com/passionyang16/ProjectCasa)
 
 사용 언어: Python
 
@@ -47,17 +100,36 @@ passionyang16@gmail.com
 
 - ARIMA 시계열 분석을 통한 아파트 가격 예측 (결측치는 동일 군집에서 비슷한 아파트의 가격으로 대체)
 
-### 뉴스 데이터를 활용한 시스템 트레이딩
-[Github](https://github.com/sopogen/Project_ThematicInvest)
+
+### 데이콘 대회
+[Github Link](https://github.com/passionyang16/ProjectCelestial)
 
 사용 언어: Python
 
-뉴스 데이터를 자연어 처리하여 관련 테마주를 찾고, 그 중 저평가된 주식을 자동으로 트레이딩하는 알고리즘
+지도 학습을 활용한 천체 유형 분류 분석
 
-- 네이버 증권과 뉴스를 크롤링해 데이터 수집 (진행중)
+- EDA를 통한 데이터 전처리, scikit learn 활용
 
-## Blog
-[Github](https://github.com/passionyang16/r_blog)
+- 분류 분석에 유용한 앙상블 기법 중 XgBoost, LightGBM 사용
+
+- 데이터 마이닝 관련 필요한 과정 포함
+
+
+## 기타
+
+### Algorithm Practice
+
+[Github](https://github.com/passionyang16/algorithm)
+
+사용 언어: Python
+
+기초적인 컴퓨터 공학 자료구조와 알고리즘를 익히기 위한 문제 풀이
+
+- 백준 / 프로그래머스
+
+### R Machine Learning Codebook
+
+[Github](https://github.com/passionyang16/r_codebook)
 
 사용 언어: R
 
@@ -78,7 +150,7 @@ passionyang16@gmail.com
 
 - R과 파이썬 프로그래밍
 
-- 수리통계학
+- 수리통계학 1, 2
 
 - 회귀분석
 
@@ -89,6 +161,10 @@ passionyang16@gmail.com
 - 딥러닝
 
 - 데이터 사이언스 입문
+
+- 금융공학의 이해
+
+- 시계열 분석
 
 
 
