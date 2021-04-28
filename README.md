@@ -15,6 +15,16 @@ Resume
 
 데이터 분석 관련 프로젝트 리스트입니다.
 
+## 3줄 요약 웹사이트
+
+[Github Link](https://github.com/passionyang16/3-lines-summary)
+
+사용언어: Python
+
+KoBERT를 활용한 문서 추출 요약 웹 구현
+
+- Pytorch로 
+
 
 ## 주식 자동 트레이딩 프로그램
 
@@ -82,7 +92,7 @@ Version 2)
 
 ## Algorithm Practice
 
-[Github](https://github.com/passionyang16/algorithm)
+[Github Link](https://github.com/passionyang16/algorithm)
 
 사용 언어: Python
 
@@ -92,7 +102,7 @@ Version 2)
 
 ## R Machine Learning Codebook
 
-[Github](https://github.com/passionyang16/r_codebook)
+[Github Link](https://github.com/passionyang16/r_codebook)
 
 사용 언어: R
 
