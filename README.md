@@ -23,9 +23,11 @@ Resume
 
 KoBERT를 활용한 문서 추출 요약 웹 구현
 
-- Pytorch로 직접 Transformer 모델 구현
-- Google Colab TPU 사용하여 학습
-- Flask와 Node.js를 활용하여 웹 
+  - Pytorch로 직접 Transformer 모델 구현
+
+  - Google Colab TPU 사용하여 학습
+
+  - Flask와 Node.js를 활용하여 웹 
 
 
 ## 주식 자동 트레이딩 프로그램
@@ -38,19 +40,25 @@ Version 1)
 
 NLP를 활용하여 테마주를 미리 사서 정해진 밴드에 맞춰 매매
 
-- 네이버 뉴스에 테마, 뉴스, 종목 크롤링
-- KoBert로 Tokenize, Word2Vec으로 Vectorize
-- Stopwords와 정규표현식으로 meaningless한 데이터 전처리
-- 뉴스 vector와 테마 vector를 비교해 코사인 유사도가 가장 높ㅇ은 테마 선정
-- 리스크를 줄이기 위해 +5% 상한선, -5% 하한선의 밴드를 설정하고, 해당 밴드를 벗어나면 매도
+  - 네이버 뉴스에 테마, 뉴스, 종목 크롤링
+
+  - KoBert로 Tokenize, Word2Vec으로 Vectorize
+
+  - Stopwords와 정규표현식으로 meaningless한 데이터 전처리
+
+  - 뉴스 vector와 테마 vector를 비교해 코사인 유사도가 가장 높ㅇ은 테마 선정
+
+  - 리스크를 줄이기 위해 +5% 상한선, -5% 하한선의 밴드를 설정하고, 해당 밴드를 벗어나면 매도
 
 Version 2)
 
 변동성이 큰 상한가 다음날 종목을 매매
 
-- 대신증권 크레온 API로 2년치 상한가 다음날 종목 데이터 매분마다 수집
-- 몇시 몇분 매수, 몇시 몇분 매도가 가장 큰 수익률을 가져다주는지 정밀한 데이터 분석 진행
-- 대신증권 크레온 API request / response를 통해 주식 자동 트레이딩 프로그램 완성
+  - 대신증권 크레온 API로 2년치 상한가 다음날 종목 데이터 매분마다 수집
+
+  - 몇시 몇분 매수, 몇시 몇분 매도가 가장 큰 수익률을 가져다주는지 정밀한 데이터 분석 진행
+
+  - 대신증권 크레온 API request / response를 통해 주식 자동 트레이딩 프로그램 완성
 
 
 ## 데이터사이언스입문 수업 부동산 가격 예측 프로젝트
