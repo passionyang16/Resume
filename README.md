@@ -16,6 +16,7 @@ Resume
 
 데이터 분석 및 개발 관련 프로젝트 리스트입니다.
 
+
 ### 맞춤형 정보성 뉴스 알림 앱, 뉴스보이
 
 [Github Link](https://github.com/passionyang16/newsboy)
