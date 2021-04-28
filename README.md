@@ -10,7 +10,6 @@ Resume
 
 언어: Python, R
 
----
 
 # Projects
 
@@ -78,7 +77,6 @@ Version 2)
   - 데이터 마이닝 관련 필요한 과정 포함
 
 
----
 
 # 기타
 
@@ -100,7 +98,6 @@ Version 2)
 
 머신 러닝에 필요한 다양한 기법들을 쉽게 사용하기 위한 R Codebook
 
----
 
 # Courses
 
@@ -132,7 +129,6 @@ Version 2)
 
   - 시계열 분석
 
----
 
 # Coming Soon
 
