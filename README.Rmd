@@ -87,7 +87,7 @@ Version 2)
 
 대신증권 API를 활용해 자동으로 트레이딩 되도록 설정
 
-### 부동산 가격 예측 프로그램
+### 데이터사이언스입문 수업 부동산 가격 예측 프로젝트
 [Github Link](https://github.com/passionyang16/ProjectCasa)
 
 사용 언어: Python
@@ -101,7 +101,7 @@ Version 2)
 - ARIMA 시계열 분석을 통한 아파트 가격 예측 (결측치는 동일 군집에서 비슷한 아파트의 가격으로 대체)
 
 
-### 데이콘 대회
+### YBIGTA 데이콘 천체유형 분류 대회 머신러닝 프로젝트
 [Github Link](https://github.com/passionyang16/ProjectCelestial)
 
 사용 언어: Python

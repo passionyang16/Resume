@@ -86,7 +86,7 @@ Version 2)
 
 대신증권 API를 활용해 자동으로 트레이딩 되도록 설정
 
-### 부동산 가격 예측 프로그램
+### 데이터사이언스입문 수업 부동산 가격 예측 프로젝트
 
 [Github Link](https://github.com/passionyang16/ProjectCasa)
 
@@ -100,7 +100,7 @@ Version 2)
 
   - ARIMA 시계열 분석을 통한 아파트 가격 예측 (결측치는 동일 군집에서 비슷한 아파트의 가격으로 대체)
 
-### 데이콘 대회
+### YBIGTA 데이콘 천체유형 분류 대회 머신러닝 프로젝트
 
 [Github Link](https://github.com/passionyang16/ProjectCelestial)
 
@@ -108,6 +108,29 @@ Version 2)
 
 지도 학습을 활용한 천체 유형 분류 분석
 
+  - EDA를 통한 데이터 전처리, scikit learn 활용
+
+  - 분류 분석에 유용한 앙상블 기법 중 XgBoost, LightGBM 사용
+
+  - 데이터 마이닝 관련 필요한 과정 포함
+
+## 기타
+
+### Algorithm Practice
+
+[Github](https://github.com/passionyang16/algorithm)
+
+사용 언어: Python
+
+기초적인 컴퓨터 공학 자료구조와 알고리즘를 익히기 위한 문제 풀이
+
+  - 백준 / 프로그래머스
+
+### R Machine Learning Codebook
+
+[Github](https://github.com/passionyang16/r_codebook)
+
+사용 언어: R
 
 머신 러닝에 필요한 다양한 기법들을 쉽게 사용하기 위한 R Codebook
 
