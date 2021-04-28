@@ -6,15 +6,13 @@ Resume
 
 010-2811-6370
 
-프로그래밍 관련 이력서입니다.
+데이터 분석 관련 이력서입니다.
 
-언어: Python, R, JavaScript, TypeScript, Dart
-
-프레임워크: GraphQL, Docker, MongoDB, NodeJS, Flutter
+언어: Python, R
 
 ## Projects
 
-데이터 분석 및 개발 관련 프로젝트 리스트입니다.
+데이터 분석 관련 프로젝트 리스트입니다.
 
 
 ### 주식 자동 트레이딩 프로그램
