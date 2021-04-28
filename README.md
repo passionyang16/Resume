@@ -16,7 +16,6 @@ Resume
 
 데이터 분석 및 개발 관련 프로젝트 리스트입니다.
 
-
 ### 맞춤형 정보성 뉴스 알림 앱, 뉴스보이
 
 [Github Link](https://github.com/passionyang16/newsboy)
@@ -54,6 +53,7 @@ Resume
 7)  구독한 키워드 중 새로운 뉴스가 업데이트 되면 사용자에게 푸시 알림으로 해당 내용을 전달 (Firebase 활용)
 
 8)  Algolia를 활용한 검색 기능 탑재
+
 
 ### 주식 자동 트레이딩 프로그램
 
